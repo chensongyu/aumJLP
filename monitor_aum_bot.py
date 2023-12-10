@@ -1,7 +1,9 @@
 import os
 import requests
 from bs4 import BeautifulSoup
-from telegram import Bot, ParseMode
+from telegram import Bot
+from telegram.parsemode import ParseMode
+
 
 # Telegram Bot Token obtained from GitHub Secrets
 TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')

@@ -10,7 +10,7 @@ TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
 WEBSITE_URL = 'https://jup.ag/perps-earn/buy/SOL'
 
 # AUM threshold to trigger a message
-AUM_THRESHOLD = 20000000  # Adjust this threshold as needed
+AUM_THRESHOLD = 10000000  # Adjust this threshold as needed
 
 # Initialize the Telegram Bot
 bot = Bot(TOKEN)

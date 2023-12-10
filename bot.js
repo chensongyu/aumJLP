@@ -27,7 +27,7 @@ async function monitorAUM() {
 
   while (true) {
     try {
-      const response = await fetch('WEBSITE_URL');
+      const response = await fetch('https://jup.ag/perps-earn/buy/SOL');
       const html = await response.text();
 
       // Use a method like cheerio to parse HTML and find AUM data
